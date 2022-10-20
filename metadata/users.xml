@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users xmlns="http://www.demandware.com/xml/impex/user/2007-09-05">
+    <user login="georgegeauca@gmail.com" enabled-flag="true">
+        <credentials>
+            <external-id>09529e3e-108c-461a-91cb-79f0e7bd2600</external-id>
+        </credentials>
+        <profile>
+            <first-name>George</first-name>
+            <last-name>Geauca</last-name>
+            <email>georgegeauca@gmail.com</email>
+        </profile>
+    </user>
+
+</users>
