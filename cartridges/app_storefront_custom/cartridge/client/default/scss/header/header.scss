@@ -1,0 +1,12 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    background-color: white;
+}
+
+.free-shipping-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
