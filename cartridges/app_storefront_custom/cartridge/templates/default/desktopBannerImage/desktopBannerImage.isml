@@ -1,0 +1,18 @@
+<isinclude template="/components/modules" sf-toolkit="off" />
+<iscontentasset aid="exercise_three_asset"/>
+
+
+<isscript>
+        var assets = require('*/cartridge/scripts/assets.js');
+        assets.addJs('/js/productTile.js');
+        assets.addCss('/css/homePage.css');
+
+        var exerciseThreeAsset = dw.content.ContentMgr.getContent('exercise_three_asset');
+
+        var imageSrc = exerciseThreeAsset.custom.desktopBannerImage.url;
+</isscript>
+
+<div class='desktop-banner-image'>
+    <h2>${exerciseThreeAsset.name}</h2>
+    <img src='${imageSrc}' alt='desktopBannerImage'/>
+</div>
