@@ -5598,6 +5598,19 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
         </custom-attributes>
     </content>
 
+    <content content-id="exercise_three_asset">
+        <display-name xml:lang="x-default">Exercise Three Asset</display-name>
+        <description xml:lang="x-default">dummy asset made for exercise 3 SFRA Frontend</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="Year">2022</custom-attribute>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;/p&gt;</custom-attribute>
+            <custom-attribute attribute-id="desktopBannerImage" xml:lang="x-default">exercise_three_asset.jpg</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="f21da510024de04a5980bdfb72">
         <display-name xml:lang="x-default">Campaign Banner Component</display-name>
         <type>component.commerce_assets.campaignBanner</type>
