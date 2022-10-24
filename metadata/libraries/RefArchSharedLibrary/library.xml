@@ -5599,7 +5599,7 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
     </content>
 
     <content content-id="exercise_three_asset">
-        <display-name xml:lang="x-default">Exercise Three Asset</display-name>
+        <display-name xml:lang="x-default">Desktop Banner Image</display-name>
         <description xml:lang="x-default">dummy asset made for exercise 3 SFRA Frontend</description>
         <online-flag>true</online-flag>
         <searchable-flag>false</searchable-flag>
@@ -6251,6 +6251,38 @@ FOUND IT</custom-attribute>
                 &lt;li&gt;&lt;a href="#" title="前往愿望清单"&gt;愿望清单&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;li&gt;&lt;a href="#" title="前往礼品登记"&gt;礼品登记&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;/ul&gt;&lt;!-- END: footer-account --&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="footer-alternative">
+        <display-name xml:lang="x-default">Footer Alternative</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class="alt-footer"&gt;&#13;
+  &lt;h2&gt;Footer Your Benefits Section&lt;/h2&gt;&#13;
+  &lt;h4&gt;Where does it come from?&lt;/h4&gt;&#13;
+  &lt;div class="alt-footer-content"&gt;&#13;
+  &lt;div class="alt-footer-col"&gt;&#13;
+    &lt;h6&gt;Where does it come from ?&lt;/h6&gt;&#13;
+    &lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend toitrrepeat predefined chunks. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.&lt;/p&gt;&#13;
+  &lt;/div&gt;&#13;
+   &lt;div class="alt-footer-col"&gt;&#13;
+    &lt;h6&gt;Where does it come from ?&lt;/h6&gt;&#13;
+    &lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend toitrrepeat predefined chunks. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.&lt;/p&gt;&#13;
+  &lt;/div&gt;&#13;
+  &lt;div class="alt-footer-col"&gt;&#13;
+    &lt;h6&gt;Where does it come from ?&lt;/h6&gt;&#13;
+    &lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend toitrrepeat predefined chunks. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.&lt;/p&gt;&#13;
+  &lt;/div&gt;&#13;
+  &lt;div class="alt-footer-col"&gt;&#13;
+    &lt;h6&gt;Where does it come from ?&lt;/h6&gt;&#13;
+    &lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend toitrrepeat predefined chunks. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.&lt;/p&gt;&#13;
+  &lt;/div&gt;&#13;
+  &lt;/div&gt;&#13;
+&lt;/div&gt;</custom-attribute>
+            <custom-attribute attribute-id="customCSSFile">altFooter.scss</custom-attribute>
         </custom-attributes>
     </content>
 
@@ -7711,6 +7743,17 @@ Per utilizzare un certificato regalo, specifica il codice di 16 cifre nella pagi
 &lt;h2&gt;陆路送货&lt;/h2&gt;&#13;
 &lt;h3&gt;金额达到或超过 150 美元的订单&lt;/h3&gt;&#13;
 &lt;/div&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="home-free-shipping-orders-over-50">
+        <display-name xml:lang="x-default">Free Shipping Over US$ 50</display-name>
+        <description xml:lang="x-default">free ground shipping om orders over US$ 50.00</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h5&gt;Free Shipping over US$ 50.00 &lt;/h5&gt;</custom-attribute>
         </custom-attributes>
     </content>
 

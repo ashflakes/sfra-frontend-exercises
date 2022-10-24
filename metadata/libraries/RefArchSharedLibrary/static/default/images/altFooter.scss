@@ -1,0 +1,16 @@
+.alt-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alt-footer-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.alt-footer-content p {
+    margin-bottom: 0;
+    font-weight: bold;
+}

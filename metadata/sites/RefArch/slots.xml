@@ -99,6 +99,26 @@ Here you will find answers to your questions about shopping at our online store,
         </content>
     </slot-configuration>
 
+    <slot-configuration slot-id="slider" context="global" configuration-id="New Slot Configuration - 2022-10-24 16:52:19" default="true" assigned-to-site="false">
+        <description>ten product slider</description>
+        <template>slots/product/productSlider.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <products>
+                <product product-id="22962004M"/>
+                <product product-id="25050730M"/>
+                <product product-id="25502848M"/>
+                <product product-id="25518360M"/>
+                <product product-id="25517958M"/>
+                <product product-id="25518647M"/>
+                <product product-id="25518921M"/>
+                <product product-id="25564426M"/>
+                <product product-id="25565189M"/>
+                <product product-id="25565770M"/>
+            </products>
+        </content>
+    </slot-configuration>
+
     <slot-configuration slot-id="noresult-banner-m" context="global" configuration-id="Noresult Banner" assigned-to-site="false">
         <template>slots/content/htmlSlotContainer.isml</template>
         <enabled-flag>false</enabled-flag>
