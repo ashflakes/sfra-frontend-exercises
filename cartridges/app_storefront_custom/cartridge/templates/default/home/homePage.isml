@@ -10,9 +10,9 @@
 
     <!-- +1.888.555.0199 --><!--This phone is a requirement to support existing Gomez monitor of SiteGenesis. Demandware customers can remove this.-->
 
-   
-    <isinclude template="desktopBannerImage/desktopBannerImage" />
     
+
+    <isinclude template="desktopBannerImage/desktopBannerImage" />
 
     <div class="home-main homepage">
         <isslot id="home-main-m" description="Main home page slot." context="global" />
