@@ -1,0 +1,10 @@
+<isset name="categoryId" value="${pdict.productSearch.category.id}" scope="session">
+
+<isloop items="${pdict.productSearch.productIds}" var="product">
+    <div class="col-6 col-sm-4">
+        <isslot id="badge_slot" context="global" description="badge on product tiles" />
+        <isobject object="${product.productSearchHit}" view="searchhit">
+            <isinclude url="${URLUtils.url('Tile-Show', 'pid', product.productID, 'swatches', true, 'ratings', true)}" />
+        </isobject>
+    </div>
+</isloop>

@@ -1,3 +1,0 @@
-<isdecorate template="common/layout/page">
-    <isslot id="slider" description="ten-product-slider" context="global"/>
-</isdecorate>

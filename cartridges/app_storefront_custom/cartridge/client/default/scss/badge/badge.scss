@@ -1,6 +1,16 @@
 .badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
     background-color: red;
     color: white;
-    text-align: center;
     border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    transform:translate(-15%, -20%);
+    z-index: 1;
   }
+
+ 

@@ -148,6 +148,15 @@ Here you will find answers to your questions about shopping at our online store,
             <categories>
                 <category category-id="mens-clothing"/>
                 <category category-id="mens-accessories"/>
+                <category category-id="newarrivals-womens"/>
+                <category category-id="newarrivals-mens"/>
+                <category category-id="newarrivals-electronics"/>
+                <category category-id="womens-clothing"/>
+                <category category-id="electronics-televisions"/>
+                <category category-id="electronics-digital-cameras"/>
+                <category category-id="electronics-digital-media-players"/>
+                <category category-id="electronics-gps-units"/>
+                <category category-id="electronics-gaming"/>
             </categories>
         </content>
     </slot-configuration>
@@ -201,6 +210,14 @@ Here you will find answers to your questions about shopping at our online store,
                 <category category-id="newarrivals-mens"/>
                 <category category-id="newarrivals-electronics"/>
             </categories>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="badge_slot" context="category" context-id="newarrivals" configuration-id="New Slot Configuration - 2022-10-25 19:38:19" default="true" assigned-to-site="false">
+        <template>slots/category/badge.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <categories/>
         </content>
     </slot-configuration>
 
