@@ -1,0 +1,12 @@
+<isset name="catId" value="${pdict.category.ID}" scope="page" />
+
+<div class="badge">
+   <isif condition="${slotcontent != null}">
+      <isloop items="${slotcontent.content}" var="category">
+         
+         
+         <isprint value="${catId}"  encoding="off"/>
+      </isloop>
+   </isif>
+</div>
+
