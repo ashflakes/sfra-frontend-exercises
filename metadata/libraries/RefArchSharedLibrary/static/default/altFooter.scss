@@ -1,0 +1,24 @@
+.alt-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alt-footer-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.alt-footer-col:not(:last-child) {
+    margin-right: 3rem;
+}
+
+.alt-footer-content h6 {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.alt-footer-content p {
+    font-size: 0.9rem;
+}
