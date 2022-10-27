@@ -5598,6 +5598,19 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
         </custom-attributes>
     </content>
 
+    <content content-id="exercise_three_asset">
+        <display-name xml:lang="x-default">Desktop Banner Image</display-name>
+        <description xml:lang="x-default">dummy asset made for exercise 3 SFRA Frontend</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="Year">2022</custom-attribute>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;/p&gt;</custom-attribute>
+            <custom-attribute attribute-id="desktopBannerImage" xml:lang="x-default">exercise_three_asset.jpg</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="f21da510024de04a5980bdfb72">
         <display-name xml:lang="x-default">Campaign Banner Component</display-name>
         <type>component.commerce_assets.campaignBanner</type>
@@ -6150,7 +6163,7 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
         <display-name xml:lang="ja-JP">フッターの企業情報リンク</display-name>
         <display-name xml:lang="zh-CN">页脚关于链接</display-name>
         <online-flag>true</online-flag>
-        <searchable-flag>false</searchable-flag>
+        <searchable-flag>true</searchable-flag>
         <page-attributes/>
         <custom-attributes>
             <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-about"&gt;About&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;About&lt;/h2&gt;&lt;/div&gt;&#13;
@@ -6199,7 +6212,7 @@ FOUND IT</custom-attribute>
         <display-name xml:lang="ja-JP">フッターのアカウントリンク</display-name>
         <display-name xml:lang="zh-CN">页脚账户链接</display-name>
         <online-flag>true</online-flag>
-        <searchable-flag>false</searchable-flag>
+        <searchable-flag>true</searchable-flag>
         <page-attributes/>
         <custom-attributes>
             <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-account"&gt;Account&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;Account&lt;/h2&gt;&lt;/div&gt;&#13;
@@ -6241,6 +6254,38 @@ FOUND IT</custom-attribute>
         </custom-attributes>
     </content>
 
+    <content content-id="footer-alternative">
+        <display-name xml:lang="x-default">Footer Alternative</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class="alt-footer"&gt;&#13;
+  &lt;h2&gt;Footer Your Benefits Section&lt;/h2&gt;&#13;
+  &lt;h4&gt;Where does it come from?&lt;/h4&gt;&#13;
+  &lt;div class="alt-footer-content"&gt;&#13;
+  &lt;div class="alt-footer-col"&gt;&#13;
+    &lt;h6&gt;Where does it come from ?&lt;/h6&gt;&#13;
+    &lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend toitrrepeat predefined chunks. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.&lt;/p&gt;&#13;
+  &lt;/div&gt;&#13;
+   &lt;div class="alt-footer-col"&gt;&#13;
+    &lt;h6&gt;Where does it come from ?&lt;/h6&gt;&#13;
+    &lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend toitrrepeat predefined chunks. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.&lt;/p&gt;&#13;
+  &lt;/div&gt;&#13;
+  &lt;div class="alt-footer-col"&gt;&#13;
+    &lt;h6&gt;Where does it come from ?&lt;/h6&gt;&#13;
+    &lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend toitrrepeat predefined chunks. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.&lt;/p&gt;&#13;
+  &lt;/div&gt;&#13;
+  &lt;div class="alt-footer-col"&gt;&#13;
+    &lt;h6&gt;Where does it come from ?&lt;/h6&gt;&#13;
+    &lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend toitrrepeat predefined chunks. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.&lt;/p&gt;&#13;
+  &lt;/div&gt;&#13;
+  &lt;/div&gt;&#13;
+&lt;/div&gt;</custom-attribute>
+            <custom-attribute attribute-id="customCSSFile">altFooter.scss</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="footer-copy">
         <display-name xml:lang="x-default">Footer Copyright</display-name>
         <display-name xml:lang="fr-FR">Droit d'auteur pied de page</display-name>
@@ -6266,6 +6311,33 @@ FOUND IT</custom-attribute>
             <custom-attribute attribute-id="body" xml:lang="zh-CN">&lt;div class="copyright"&gt;© 2004-2019 Salesforce。保留所有权利。&lt;/div&gt;&#13;
                 &lt;div class="postscript"&gt;此仅为示范商店。所下订单不会被处理。&lt;/div&gt;&#13;
 		&lt;!-- SFRA 6.2.0 --&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="footer-cs">
+        <display-name xml:lang="x-default">Footer Customer Service Section</display-name>
+        <description xml:lang="x-default">footer customer service section</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div&gt;&#13;
+    &lt;h6&gt;&lt;strong&gt;CUSTOMER SERVICE&lt;/strong&gt;&lt;/h6&gt;&#13;
+    &lt;ul class="footer-cs-list"&gt;&#13;
+    &lt;li class="footer-cs-list-item"&gt;&#13;
+        &lt;p&gt;&lt;strong&gt;Hotline&lt;/strong&gt;&lt;/p&gt;&#13;
+        &lt;p&gt;Monday to Friday: 8:00 AM to 5:00 PM&lt;/p&gt;&#13;
+        &lt;p&gt;1-346-4845-52&lt;/p&gt;&#13;
+    &lt;/li&gt;&#13;
+    &lt;li class="footer-cs-list-item"&gt;&#13;
+        &lt;p&gt;&lt;strong&gt;Services &amp; Help&lt;/strong&gt;&lt;/p&gt;&#13;
+        &lt;ul class="cs-services-faq"&gt;&#13;
+          &lt;li class="cs-services-faq-item"&gt;&lt;a href="#"&gt;FAQ&lt;/a&gt;&lt;/li&gt;&#13;
+        &lt;/ul&gt;&#13;
+    &lt;/li&gt;&#13;
+  &lt;/ul&gt;&#13;
+&lt;/div&gt;</custom-attribute>
+            <custom-attribute attribute-id="customCSSFile">globalFooter.scss</custom-attribute>
         </custom-attributes>
     </content>
 
@@ -6387,6 +6459,39 @@ FOUND IT</custom-attribute>
                 &lt;li&gt;&lt;a href="#" title="前往帮助"&gt;寻求帮助&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;li&gt;&lt;a href="#" title="前往站点地图"&gt;站点地图&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;/ul&gt;&lt;!-- END: footer_support --&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="footer-top">
+        <display-name xml:lang="x-default">Footer Top</display-name>
+        <description xml:lang="x-default">top part of the global footer</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class="footer-top"&gt;&#13;
+  &lt;h1&gt;Footer Your Benefits Section&lt;/h1&gt;&#13;
+  &lt;h3&gt;Where does it come from?&lt;/h3&gt;&#13;
+  &lt;div class="footer-top-content"&gt;&#13;
+  &lt;div class="footer-top-content-col"&gt;&#13;
+    &lt;h6&gt;Where does it come from ?&lt;/h6&gt;&#13;
+    &lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend toitrrepeat predefined chunks. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.&lt;/p&gt;&#13;
+  &lt;/div&gt;&#13;
+   &lt;div class="footer-top-content-col"&gt;&#13;
+    &lt;h6&gt;Where does it come from ?&lt;/h6&gt;&#13;
+    &lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend toitrrepeat predefined chunks. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.&lt;/p&gt;&#13;
+  &lt;/div&gt;&#13;
+  &lt;div class="footer-top-content-col"&gt;&#13;
+    &lt;h6&gt;Where does it come from ?&lt;/h6&gt;&#13;
+    &lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend toitrrepeat predefined chunks. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.&lt;/p&gt;&#13;
+  &lt;/div&gt;&#13;
+  &lt;div class="footer-top-content-col"&gt;&#13;
+    &lt;h6&gt;Where does it come from ?&lt;/h6&gt;&#13;
+    &lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend toitrrepeat predefined chunks. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.&lt;/p&gt;&#13;
+  &lt;/div&gt;&#13;
+  &lt;/div&gt;&#13;
+&lt;/div&gt;</custom-attribute>
+            <custom-attribute attribute-id="customCSSFile">globalFooter.scss</custom-attribute>
         </custom-attributes>
     </content>
 
@@ -6597,6 +6702,92 @@ Per utilizzare un certificato regalo, specifica il codice di 16 cifre nella pagi
         <folder-links>
             <classification-link folder-id="gift-certificates"/>
         </folder-links>
+    </content>
+
+    <content content-id="global-footer-about">
+        <display-name xml:lang="x-default">Global Footer About Section</display-name>
+        <description xml:lang="x-default">global gooter about  OSF section</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class="global-footer-about"&gt;&#13;
+    &lt;h6&gt;&lt;strong&gt;ABOUT&lt;/strong&gt;&lt;/h6&gt;&#13;
+    &lt;ul class="global-footer-list"&gt;&#13;
+        &lt;li class="global-footer-list-item"&gt;&#13;
+            &lt;a href="$url('Page-Show', 'cid', 'about-us')$" title="Go to About Us"&gt;About Us&lt;/a&gt;&#13;
+        &lt;/li &gt;&#13;
+        &lt;li class="global-footer-list-item"&gt;&#13;
+            &lt;a href="$url('Page-Show', 'cid', 'privacy-policy')$" title="Go to Privacy"&gt;Privacy&lt;/a&gt;&#13;
+        &lt;/li&gt;&#13;
+        &lt;li class="global-footer-list-item"&gt;&#13;
+            &lt;a href="$url('Page-Show', 'cid', 'terms')$" title="Go to Terms"&gt;Terms&lt;/a&gt;&#13;
+        &lt;/li&gt;&#13;
+        &lt;li class="global-footer-list-item"&gt;&#13;
+            &lt;a href="$url('Page-Show', 'cid', 'jobs-landing')$" title="Go to Jobs"&gt;Jobs&lt;/a&gt;&#13;
+        &lt;/li&gt;&#13;
+    &lt;/ul&gt;&#13;
+&lt;/div&gt;</custom-attribute>
+            <custom-attribute attribute-id="customCSSFile">globalFooter.scss</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="global-footer-account">
+        <display-name xml:lang="x-default">Account Section For Global Footer</display-name>
+        <description xml:lang="x-default">acount section for global footer</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class="global-footer-list"&gt;&#13;
+    &lt;h6&gt;&#13;
+        &lt;strong&gt;ACOUNT&lt;/strong&gt;&#13;
+    &lt;/h2&gt;&#13;
+    &lt;ul class="global-footer-list"&gt;&#13;
+        &lt;li class="global-footer-list-item"&gt;&#13;
+            &lt;a href="$httpsURL('Account-Show')$" title="Go to My Account"&gt;My Account&lt;/a&gt;&#13;
+        &lt;/li&gt;&#13;
+        &lt;li class="global-footer-list-item"&gt;&#13;
+            &lt;a href="$httpsURL('Order-History')$" title="Go to Check Order"&gt;Check Order&lt;/a&gt;&#13;
+        &lt;/li&gt;&#13;
+        &lt;li class="global-footer-list-item"&gt;&#13;
+            &lt;a href="$httpsURL('Wishlist-Search')$" title="Go to Wishlist"&gt;Find a Wishlist&lt;/a&gt;&#13;
+        &lt;/li&gt; &#13;
+        &lt;li class="global-footer-list-item"&gt;&#13;
+            &lt;a href="$httpsURL('GiftRegistry-Landing')$" title="Go to Gift Registry"&gt;Gift Registry&lt;/a&gt;&#13;
+        &lt;/li&gt;&#13;
+    &lt;/ul&gt;&lt;!-- END: footer-account --&gt;&#13;
+&lt;/div&gt;</custom-attribute>
+            <custom-attribute attribute-id="customCSSFile">globalFooter.scss</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="global-footer-copy">
+        <display-name xml:lang="x-default">Global Footer Copyright Signature</display-name>
+        <description xml:lang="x-default">global footer copyright signature</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class="global-footer-copyright"&gt;&#13;
+    &lt;div class="global-footer-copyright-line"&gt;&amp;copy; 2004-2022 Commerce Cloud, a Salesforce company. All Rights Reserved.&lt;/div&gt;&#13;
+    &lt;div class="global-footer-copyright-line"&gt;This is a demo store only. Orders made will NOT be processed.&lt;/div&gt;&#13;
+&lt;/div&gt;</custom-attribute>
+            <custom-attribute attribute-id="customCSSFile">globalFooter.scss</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="global-footer-more-info">
+        <display-name xml:lang="x-default">Global Footer More Information Section</display-name>
+        <description xml:lang="x-default">global footer more information section</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;span&gt;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&#13;
+&lt;/span&gt;</custom-attribute>
+            <custom-attribute attribute-id="customCSSFile">globalFooter.scss</custom-attribute>
+        </custom-attributes>
     </content>
 
     <content content-id="help-telephone">
@@ -7701,6 +7892,17 @@ Per utilizzare un certificato regalo, specifica il codice di 16 cifre nella pagi
         </custom-attributes>
     </content>
 
+    <content content-id="home-free-shipping-orders-over-50">
+        <display-name xml:lang="x-default">Free Shipping Over US$ 50</display-name>
+        <description xml:lang="x-default">free ground shipping om orders over US$ 50.00</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h5&gt;Free Shipping over US$ 50.00 &lt;/h5&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="home-main">
         <display-name xml:lang="x-default">Home Main</display-name>
         <display-name xml:lang="fr-FR">Accueil principal</display-name>
@@ -8149,6 +8351,27 @@ The possibilities are endless, not to mention the extensive benefits package, tr
         </folder-links>
     </content>
 
+    <content content-id="login-siginin-image">
+        <display-name xml:lang="x-default">Login Sigin Image</display-name>
+        <description xml:lang="x-default">login siginin image</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;img alt="" height="154" src="login-signin.png?$staticlink$" title="" width="154" /&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="login-track-order-image">
+        <display-name xml:lang="x-default">Login Track Order Image</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;img alt="" height="154" src="login-check-order.png?$staticlink$" title="" /&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="managing-account">
         <display-name xml:lang="x-default">Managing Your Account</display-name>
         <display-name xml:lang="fr-FR">Gestion de votre compte</display-name>
@@ -8205,6 +8428,17 @@ The possibilities are endless, not to mention the extensive benefits package, tr
                 <position>1.0</position>
             </classification-link>
         </folder-links>
+    </content>
+
+    <content content-id="mastercard-logo">
+        <display-name xml:lang="x-default">MasterCard Logo</display-name>
+        <description xml:lang="x-default">mastercard logo asset</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;img alt="" height="100" src="MasterCard.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
     </content>
 
     <content content-id="mens-clothing">
@@ -10617,6 +10851,17 @@ The possibilities are endless, not to mention the extensive benefits package, tr
         </folder-links>
     </content>
 
+    <content content-id="pay-pal-logo">
+        <display-name xml:lang="x-default">PayPal Logo</display-name>
+        <description xml:lang="x-default">paypal logo</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;img alt="" height="100" src="paypal.png?$staticlink$" title="" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="payment">
         <display-name xml:lang="x-default">Valid Payment Methods</display-name>
         <display-name xml:lang="fr-FR">Modes de règlement acceptés</display-name>
@@ -11064,6 +11309,17 @@ Consideriamo molto seriamente i diritti relativi alla privacy degli utenti di qu
         </folder-links>
     </content>
 
+    <content content-id="shipping-ground-logo">
+        <display-name xml:lang="x-default">Ground Shipping Logo</display-name>
+        <description xml:lang="x-default">ground shipping logo asset</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;img alt="" height="110" src="201610872016-03-314963542BikeDelivery.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="shipping-methods">
         <display-name xml:lang="x-default">Shipping Methods</display-name>
         <display-name xml:lang="fr-FR">Modes de livraison</display-name>
@@ -11277,6 +11533,17 @@ Consideriamo molto seriamente i diritti relativi alla privacy degli utenti di qu
         </folder-links>
     </content>
 
+    <content content-id="shipping-overseas-logo">
+        <display-name xml:lang="x-default">Overseas Shipping Logo</display-name>
+        <description xml:lang="x-default">overseas shipping logo asset</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;img alt="" height="130" src="delivery-logo-design_1465-84.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="store-locator">
         <display-name xml:lang="x-default">Store Locator</display-name>
         <display-name xml:lang="fr-FR">Localisateur de magasins</display-name>
@@ -11443,6 +11710,17 @@ Burlington, MA 01803, USA&lt;br /&gt;&#13;
         </custom-attributes>
     </content>
 
+    <content content-id="trusted-shops-badge">
+        <display-name xml:lang="x-default">Trusted Shops Badge</display-name>
+        <description xml:lang="x-default">badge for trusted eshop guarantee</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;img alt="" height="210" src="Trusted%20shops.png?$staticlink$" title="" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="vip-apparel-pricing">
         <display-name xml:lang="x-default">VIP Apparel Pricing</display-name>
         <display-name xml:lang="fr-FR">Tarification mode vestimentaire VIP</display-name>
@@ -11460,6 +11738,17 @@ Burlington, MA 01803, USA&lt;br /&gt;&#13;
         <folder-links>
             <classification-link folder-id="marketing-pages"/>
         </folder-links>
+    </content>
+
+    <content content-id="visa-logo">
+        <display-name xml:lang="x-default">Visa Logo Image</display-name>
+        <description xml:lang="x-default">visa logo image asset</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;img alt="" height="100" src="Visa.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
     </content>
 
     <content content-id="womens-clothing">
