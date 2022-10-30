@@ -1,3 +1,37 @@
 <isdecorate template="common/layout/page">
+<link rel="stylesheet" type="text/css" href="${pdict.sliderURLs.slickbasicURL}" />
+<link rel="stylesheet" type="text/css" href="${pdict.sliderURLs.slickthemeURL}" />
+
+<div class="slider">
     <isslot id="slider" description="ten-product-slider" context="global"/>
+</div>
+
+<script src="${pdict.sliderURLs.jqueryslickURL}"></script>
+<script src="${pdict.sliderURLs.slickURL}"></script>
+<script>
+    $(".slider").slick({
+        centerMode: true,
+        arrows: true,
+        centerPadding: '0px',
+        slidesToShow: 2,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    centerMode: true,
+                    arrows: true,
+                    centerPadding: '0px',
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+</script>
 </isdecorate>

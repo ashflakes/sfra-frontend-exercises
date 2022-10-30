@@ -7,3 +7,17 @@
     margin: 5% auto;
     width: 80%;
 }
+
+.tile-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-body div:last-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,4 +1,0 @@
-<isdecorate template="common/layout/page">
-    <isinclude template="/components/modules" sf-toolkit="off" />
-    <iscontentasset aid="footer-alternative"/>
-</isdecorate>

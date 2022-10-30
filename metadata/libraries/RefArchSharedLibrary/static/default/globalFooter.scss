@@ -1,24 +1,32 @@
-.alt-footer {
+.footer-top {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.alt-footer-content {
+.globa-footer {
+    background-color: dodgerblue;
+}
+
+.footer-top-content {
     display: flex;
     flex-direction: row;
 }
 
-.alt-footer-col:not(:last-child) {
+.footer-top-content-col:not(:last-child) {
     margin-right: 3rem;
 }
 
-.alt-footer-content h6 {
+.footer-top-content h6 {
     margin-bottom: 0;
     font-weight: bold;
 }
 
-.alt-footer-content p {
+.footer-top-content p {
     font-size: 0.9rem;
+}
+
+.global-footer-about list {
+    display: inline-block;
 }
