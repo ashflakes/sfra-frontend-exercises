@@ -1,35 +1,22 @@
 <isdecorate template="common/layout/page">
-    <html>
-        <head>
-            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
-            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" /> 
-        </head>
+    <link rel="stylesheet" type="text/css" href="${pdict.sliderURLs.slickbasicURL}" />
+    <link rel="stylesheet" type="text/css" href="${pdict.sliderURLs.slickthemeURL}" />
+
     <body>
         <div class="slider-for" data-slick='{"slidesToShow": 1, "asNavFor": ".slider-nav"}'>
-            <div><img src='https://picsum.photos/200' /></div>
-            <div><img src='https://picsum.photos/200' /></div>
-            <div><img src='https://picsum.photos/200' /></div>
-            <div><img src='https://picsum.photos/200' /></div>
-            <div><img src='https://picsum.photos/200' /></div>
-            <div><img src='https://picsum.photos/200' /></div>
-            <div><img src='https://picsum.photos/200' /></div>
-            <div><img src='https://picsum.photos/200' /></div>
+            <isloop items="${pdict.imageURLs}" var="image">
+                <div><img src="${image}" alt="random-image" /></div>
+            </isloop>
         </div>
         <div class="slider-nav">
-            <div><img src='https://picsum.photos/200' /></div>
-            <div><img src='https://picsum.photos/200' /></div>
-            <div><img src='https://picsum.photos/200' /></div>
-            <div><img src='https://picsum.photos/200' /></div>
-            <div><img src='https://picsum.photos/200' /></div>
-            <div><img src='https://picsum.photos/200' /></div>
-            <div><img src='https://picsum.photos/200' /></div>
-            <div><img src='https://picsum.photos/200' /></div>
+            <isloop items="${pdict.imageURLs}" var="image">
+                <div><img src="${image}" alt="random-image" /></div>
+            </isloop>
         </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="${pdict.sliderURLs.jqueryslickURL}"></script>
+    <script src="${pdict.sliderURLs.slickURL}"></script>
     <script>
-
         $(".slider-for").slick();
         $(".slider-nav").slick({
             centerMode: true,
@@ -37,7 +24,6 @@
             dots: true,
             centerPadding: '0px',
             slidesToShow: 3,
-            asNavFor: ".slider-for",
             responsive: [
                 {
                     breakpoint: 1280,
@@ -68,5 +54,4 @@
         });
     </script>
     </body>
-    </html>
 </isdecorate>
