@@ -1,3 +1,5 @@
+<isinclude template="/components/modules" sf-toolkit="off" />
+
 <header>
     <div class="sticky">
         <isinclude template="/components/header/skipNav" />
@@ -62,5 +64,5 @@
     </div>
 </header>
 <div class="free-shipping-banner">
-        <isinclude template="promotional/freeShippingOverFifty" />
+    <iscontentasset aid="home-free-shipping-orders-over-50"/>
 </div>
