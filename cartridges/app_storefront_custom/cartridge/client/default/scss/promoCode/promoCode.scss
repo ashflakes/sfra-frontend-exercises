@@ -1,0 +1,16 @@
+#promo-form-container {
+    display: none;
+}
+
+#Changer:checked ~ #promo-form-container {
+    display: block;
+}
+
+#Changer:checked ~ #handleClick {
+    display: none;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    left: -9999px;
+}

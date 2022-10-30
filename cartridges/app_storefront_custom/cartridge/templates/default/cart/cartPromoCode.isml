@@ -4,8 +4,12 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-12">
-        <form style="display:none;" action="${pdict.actionUrls.submitCouponCodeUrl}" class="promo-code-form" method="GET" name="promo-code-form">
+    <!-- Change Starts Here -->
+    <input  type="checkbox" id="Changer" value="Change" />
+    <label class="col-12" for="Changer" id="handleClick">Click here if you have a coupon</label>
+    <div class="col-12" id="promo-form-container">
+    <!-- Change Ends Here -->
+        <form action="${pdict.actionUrls.submitCouponCodeUrl}" class="promo-code-form" method="GET" name="promo-code-form">
             <div class="form-group">
                 <label for="couponCode">${Resource.msg('label.promo.code','cart',null)}</label>
                 <div class="row">
