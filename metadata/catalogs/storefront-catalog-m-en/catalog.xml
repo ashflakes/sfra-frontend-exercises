@@ -491,9 +491,12 @@
             <page-description xml:lang="zh-CN">最新的新颖时尚女鞋、女装外套和其他各式服装均可时时刻刻带给您无与伦比的舒适体验.无论任何场合，均可展现实用而时尚的风格。</page-description>
         </page-attributes>
         <custom-attributes>
+            <custom-attribute attribute-id="backgroundColor">red</custom-attribute>
             <custom-attribute attribute-id="enableCompare">false</custom-attribute>
             <custom-attribute attribute-id="showInMenu">true</custom-attribute>
             <custom-attribute attribute-id="slotBannerImage">images/slot/landing/cat-landing-slotbottom-womens-clothing.jpg</custom-attribute>
+            <custom-attribute attribute-id="textAttribute">Clothing Badge</custom-attribute>
+            <custom-attribute attribute-id="textColor">white</custom-attribute>
         </custom-attributes>
     </category>
 
@@ -521,9 +524,12 @@
             <page-description xml:lang="zh-CN">最新的男士外套和其他服装均可时时刻刻带给您无与伦比的舒适体验。无论您出现在何种场合，均可为您打造实用而舒适的风格。</page-description>
         </page-attributes>
         <custom-attributes>
+            <custom-attribute attribute-id="backgroundColor">red</custom-attribute>
             <custom-attribute attribute-id="enableCompare">false</custom-attribute>
             <custom-attribute attribute-id="showInMenu">true</custom-attribute>
             <custom-attribute attribute-id="slotBannerImage">images/slot/landing/cat-landing-slotbottom-mens-dressshirts.jpg</custom-attribute>
+            <custom-attribute attribute-id="textAttribute">Clothing Badge</custom-attribute>
+            <custom-attribute attribute-id="textColor">white</custom-attribute>
         </custom-attributes>
     </category>
 
