@@ -99,6 +99,158 @@ Here you will find answers to your questions about shopping at our online store,
         </content>
     </slot-configuration>
 
+    <slot-configuration slot-id="slider" context="global" configuration-id="New Slot Configuration - 2022-10-24 16:52:19" default="true" assigned-to-site="false">
+        <description>ten product slider</description>
+        <template>slots/product/productSlider.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <products>
+                <product product-id="22962004M"/>
+                <product product-id="25050730M"/>
+                <product product-id="25502848M"/>
+                <product product-id="25518360M"/>
+                <product product-id="25517958M"/>
+                <product product-id="25518647M"/>
+                <product product-id="25518921M"/>
+                <product product-id="25564426M"/>
+                <product product-id="25565189M"/>
+                <product product-id="25565770M"/>
+            </products>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="badge-category-slot" context="global" configuration-id="New Slot Configuration - 2022-10-24 22:48:24" default="true" assigned-to-site="false">
+        <template>slots/category/badge.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <categories>
+                <category category-id="newarrivals"/>
+                <category category-id="womens"/>
+                <category category-id="mens"/>
+                <category category-id="electronics"/>
+                <category category-id="top-seller"/>
+                <category category-id="newarrivals-womens"/>
+                <category category-id="newarrivals-mens"/>
+                <category category-id="newarrivals-electronics"/>
+                <category category-id="womens-clothing"/>
+                <category category-id="womens-jewelry"/>
+                <category category-id="womens-accessories"/>
+                <category category-id="mens-clothing"/>
+                <category category-id="mens-accessories"/>
+            </categories>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="badge_slot" context="global" configuration-id="New Slot Configuration - 2022-10-24 23:02:41" default="true" assigned-to-site="false">
+        <template>slots/category/badge.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <categories>
+                <category category-id="mens-clothing"/>
+                <category category-id="mens-accessories"/>
+                <category category-id="newarrivals-womens"/>
+                <category category-id="newarrivals-mens"/>
+                <category category-id="newarrivals-electronics"/>
+                <category category-id="womens-clothing"/>
+                <category category-id="electronics-televisions"/>
+                <category category-id="electronics-digital-cameras"/>
+                <category category-id="electronics-digital-media-players"/>
+                <category category-id="electronics-gps-units"/>
+                <category category-id="electronics-gaming"/>
+                <category category-id="womens-jewelry"/>
+                <category category-id="womens-accessories"/>
+            </categories>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="badge-slot" context="category" context-id="newarrivals" configuration-id="New Slot Configuration - 2022-10-25 01:08:47" assigned-to-site="false">
+        <template>slots/product/product_1x2.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <products/>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="badge-slot" context="category" context-id="newarrivals" configuration-id="New Slot Configuration - 2022-10-25 01:09:25" assigned-to-site="false">
+        <template>slots/product/product_1x2.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <products/>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="badge_slot" context="category" context-id="womens" configuration-id="New Slot Configuration - 2022-10-25 12:06:36" default="true" assigned-to-site="false">
+        <template>slots/category/badge.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <categories>
+                <category category-id="mens-clothing"/>
+                <category category-id="mens-accessories"/>
+            </categories>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="badge" context="category" context-id="newarrivals" configuration-id="New Slot Configuration - 2022-10-25 13:10:59" default="true" assigned-to-site="false">
+        <template>slots/category/badge.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <categories>
+                <category category-id="womens-clothing"/>
+                <category category-id="womens-jewelry"/>
+                <category category-id="womens-accessories"/>
+            </categories>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="badge" context="global" configuration-id="New Slot Configuration - 2022-10-25 14:04:11" default="true" assigned-to-site="false">
+        <description>badge for catergory display</description>
+        <template>slots/category/badge.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <categories>
+                <category category-id="newarrivals-womens"/>
+                <category category-id="newarrivals-mens"/>
+                <category category-id="newarrivals-electronics"/>
+            </categories>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="badge_slot" context="category" context-id="newarrivals" configuration-id="New Slot Configuration - 2022-10-25 19:38:19" default="true" assigned-to-site="false">
+        <template>slots/category/badge.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <categories/>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="modular_template" context="global" configuration-id="New Slot Configuration - 2022-10-26 11:27:12" default="true" assigned-to-site="false">
+        <template>slots/html/modularElem.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html/>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="login-page-signin" context="global" configuration-id="New Slot Configuration - 2022-10-26 23:49:08" default="true" assigned-to-site="false">
+        <template>slots/content/loginAccordion.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="login-siginin-image"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="login-page-checkorder" context="global" configuration-id="New Slot Configuration - 2022-10-27 00:14:26" default="true" assigned-to-site="false">
+        <template>slots/content/loginAccordion.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="login-track-order-image"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
     <slot-configuration slot-id="noresult-banner-m" context="global" configuration-id="Noresult Banner" assigned-to-site="false">
         <template>slots/content/htmlSlotContainer.isml</template>
         <enabled-flag>false</enabled-flag>

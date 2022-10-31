@@ -6,9 +6,9 @@
     <custom-cartridges>app_storefront_base</custom-cartridges>
     <storefront-status>online</storefront-status>
     <home-page-meta-tag-rules>
-        <page-meta-tag-rule rule-id="Homepage Title"/>
         <page-meta-tag-rule rule-id="Homepage Robots"/>
         <page-meta-tag-rule rule-id="Homepage Open Graph URL"/>
+        <page-meta-tag-rule rule-id="Homepage Title"/>
     </home-page-meta-tag-rules>
 </site>
 
