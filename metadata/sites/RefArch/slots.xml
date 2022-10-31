@@ -157,6 +157,8 @@ Here you will find answers to your questions about shopping at our online store,
                 <category category-id="electronics-digital-media-players"/>
                 <category category-id="electronics-gps-units"/>
                 <category category-id="electronics-gaming"/>
+                <category category-id="womens-jewelry"/>
+                <category category-id="womens-accessories"/>
             </categories>
         </content>
     </slot-configuration>
@@ -226,6 +228,26 @@ Here you will find answers to your questions about shopping at our online store,
         <enabled-flag>true</enabled-flag>
         <content>
             <html/>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="login-page-signin" context="global" configuration-id="New Slot Configuration - 2022-10-26 23:49:08" default="true" assigned-to-site="false">
+        <template>slots/content/loginAccordion.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="login-siginin-image"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="login-page-checkorder" context="global" configuration-id="New Slot Configuration - 2022-10-27 00:14:26" default="true" assigned-to-site="false">
+        <template>slots/content/loginAccordion.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="login-track-order-image"/>
+            </content-assets>
         </content>
     </slot-configuration>
 
