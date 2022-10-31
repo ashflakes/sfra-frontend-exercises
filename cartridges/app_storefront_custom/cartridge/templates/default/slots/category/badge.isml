@@ -1,10 +1,18 @@
-   <isif condition="${slotcontent != null}">
-      <isloop items="${slotcontent.content}" var="category">
-         <isif condition="${session.custom.categoryId === category.ID}">
-            <span class="badge">Clothing<br />Badge</span>
-         </isif>
-      </isloop>
-   </isif>
+<isif condition="${slotcontent != null}">
+   <isloop items="${slotcontent.content}" var="category">
+      <isif condition="${session.custom.categoryId === category.ID}">
+      <isif condition="${category.custom.textAttribute}">
+         <!-- Exercise-8 badge_slot from here -->
+         <div
+            class="badge"
+            style="background:${category.custom.backgroundColor};color:${category.custom.textColor}">
+            <p>${category.custom.textAttribute}</p>
+            <p>Badge</p>
+         </div>
+      </isif>
+      </isif>
+   </isloop>
+</isif>
 
 
 
