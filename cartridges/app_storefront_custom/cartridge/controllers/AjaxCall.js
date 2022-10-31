@@ -2,11 +2,25 @@
 
 var server = require('server');
 
-server.get('Render', (req, res, next) => {
+server.get('Show', (req, res, next) => {
     res.render("exerciseThirteen/renderMe");
 
     return next();
 })
+
+// server.get('RenderModal', cache.applyPromotionSensitiveCache, function (req, res, next) {
+//     var URLUtils = require('dw/web/URLUtils');
+//     var Resource = require('dw/web/Resource');
+
+//     var context = {
+//         enterDialogMessage: Resource.msg('msg.enter.quickview', 'product', null),
+//         template: template
+//     };
+
+//     res.setViewData(context);
+
+//     next();
+// });
 
 // server.get('ShowModal', function (req, res, next) {
 //     var URLUtils = require('dw/web/URLUtils');

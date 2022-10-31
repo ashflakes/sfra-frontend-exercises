@@ -2,10 +2,10 @@
     <div class="filter-input">
         <input id="sample-text" type="text" />
         <button
-            class="ajax-filter"
+            id="ajax-filter"
+            class="btn btn-primary"
             data-toggle="modal"
             data-target="#filter-modal"
-            myhtml="blablabla"
-            >Open</button>
+            ><i class="minicart-icon fa fa-shopping-bag"></i> Open!</button>
     </div>
 </isdecorate>
