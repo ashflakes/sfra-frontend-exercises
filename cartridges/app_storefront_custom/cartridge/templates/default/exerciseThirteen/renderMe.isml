@@ -5,7 +5,7 @@
             class="ajax-filter"
             data-toggle="modal"
             data-target="#filter-modal"
-            myHtml="blablabla"
+            myhtml="blablabla"
             >Open</button>
     </div>
 </isdecorate>
