@@ -1,0 +1,11 @@
+<isdecorate template="common/layout/page">
+    <div class="filter-input">
+        <input id="sample-text" type="text" />
+        <button
+            class="ajax-filter"
+            data-toggle="modal"
+            data-target="#filter-modal"
+            myHtml="blablabla"
+            >Open</button>
+    </div>
+</isdecorate>
