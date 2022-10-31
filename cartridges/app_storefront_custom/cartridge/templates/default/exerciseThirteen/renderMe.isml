@@ -1,0 +1,6 @@
+<isdecorate >
+    <div class="content">
+        <input type="text">
+        <button>Open!</button>
+    </div>
+</isdecorate>
