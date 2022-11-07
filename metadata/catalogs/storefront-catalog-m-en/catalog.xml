@@ -491,9 +491,12 @@
             <page-description xml:lang="zh-CN">最新的新颖时尚女鞋、女装外套和其他各式服装均可时时刻刻带给您无与伦比的舒适体验.无论任何场合，均可展现实用而时尚的风格。</page-description>
         </page-attributes>
         <custom-attributes>
+            <custom-attribute attribute-id="backgroundColor">red</custom-attribute>
             <custom-attribute attribute-id="enableCompare">false</custom-attribute>
             <custom-attribute attribute-id="showInMenu">true</custom-attribute>
             <custom-attribute attribute-id="slotBannerImage">images/slot/landing/cat-landing-slotbottom-womens-clothing.jpg</custom-attribute>
+            <custom-attribute attribute-id="textAttribute">New Arrivals</custom-attribute>
+            <custom-attribute attribute-id="textColor">white</custom-attribute>
         </custom-attributes>
     </category>
 
@@ -521,9 +524,12 @@
             <page-description xml:lang="zh-CN">最新的男士外套和其他服装均可时时刻刻带给您无与伦比的舒适体验。无论您出现在何种场合，均可为您打造实用而舒适的风格。</page-description>
         </page-attributes>
         <custom-attributes>
+            <custom-attribute attribute-id="backgroundColor">red</custom-attribute>
             <custom-attribute attribute-id="enableCompare">false</custom-attribute>
             <custom-attribute attribute-id="showInMenu">true</custom-attribute>
             <custom-attribute attribute-id="slotBannerImage">images/slot/landing/cat-landing-slotbottom-mens-dressshirts.jpg</custom-attribute>
+            <custom-attribute attribute-id="textAttribute">New Arrivals</custom-attribute>
+            <custom-attribute attribute-id="textColor">white</custom-attribute>
         </custom-attributes>
     </category>
 
@@ -539,9 +545,12 @@
             <page-description xml:lang="x-default">Shop New Arrivals in Electronics including the latest in televisions, digital cameras, camcorders, mp3, ipod, mobil phones, GPS &amp; gaming at Commerce Cloud.</page-description>
         </page-attributes>
         <custom-attributes>
+            <custom-attribute attribute-id="backgroundColor">red</custom-attribute>
             <custom-attribute attribute-id="enableCompare">false</custom-attribute>
             <custom-attribute attribute-id="showInMenu">true</custom-attribute>
             <custom-attribute attribute-id="slotBannerImage">images/slot/landing/cat-landing-slotbottom-electronics.jpg</custom-attribute>
+            <custom-attribute attribute-id="textAttribute">New Arrivals</custom-attribute>
+            <custom-attribute attribute-id="textColor">white</custom-attribute>
         </custom-attributes>
     </category>
 
@@ -613,10 +622,13 @@
             <page-keywords xml:lang="zh-CN">女式外衣、女式上衣、女式下装</page-keywords>
         </page-attributes>
         <custom-attributes>
+            <custom-attribute attribute-id="backgroundColor">red</custom-attribute>
             <custom-attribute attribute-id="enableCompare">false</custom-attribute>
             <custom-attribute attribute-id="showInMenu">true</custom-attribute>
             <custom-attribute attribute-id="sizeChartID">womens-clothing</custom-attribute>
             <custom-attribute attribute-id="slotBannerImage">images/slot/landing/cat-landing-slotbottom-womens-clothing.jpg</custom-attribute>
+            <custom-attribute attribute-id="textAttribute">Clothing</custom-attribute>
+            <custom-attribute attribute-id="textColor">white</custom-attribute>
         </custom-attributes>
         <refinement-definitions>
             <refinement-definition type="attribute" bucket-type="values" attribute-id="size" system="false">
@@ -2544,9 +2556,12 @@
             <page-description xml:lang="zh-CN">选购耳饰、手链、项链等女士珠宝首饰，各种颜色，款式丰富。</page-description>
         </page-attributes>
         <custom-attributes>
+            <custom-attribute attribute-id="backgroundColor">red</custom-attribute>
             <custom-attribute attribute-id="enableCompare">false</custom-attribute>
             <custom-attribute attribute-id="showInMenu">true</custom-attribute>
             <custom-attribute attribute-id="slotBannerImage">images/slot/landing/cat-landing-slotbottom-womens-jewelry.jpg</custom-attribute>
+            <custom-attribute attribute-id="textAttribute">Jewelery</custom-attribute>
+            <custom-attribute attribute-id="textColor">white</custom-attribute>
         </custom-attributes>
         <refinement-definitions>
             <blocked-refinement-definition type="attribute" attribute-id="refinementColor" system="false"/>
@@ -2669,9 +2684,12 @@
             <page-keywords xml:lang="zh-CN">女士配饰、女士皮带、女士钱包、女式手套、女式帽子、太阳镜、手表、手套、帽子、围巾、箱包、旅行包、背包、书包、电脑包、登山背包、女士袜子、女袜</page-keywords>
         </page-attributes>
         <custom-attributes>
+            <custom-attribute attribute-id="backgroundColor">red</custom-attribute>
             <custom-attribute attribute-id="enableCompare">false</custom-attribute>
             <custom-attribute attribute-id="showInMenu">true</custom-attribute>
             <custom-attribute attribute-id="slotBannerImage">images/slot/landing/cat-landing-slotbottom-womens-accessories.jpg</custom-attribute>
+            <custom-attribute attribute-id="textAttribute">Accessories</custom-attribute>
+            <custom-attribute attribute-id="textColor">white</custom-attribute>
         </custom-attributes>
         <refinement-definitions>
             <refinement-definition type="attribute" bucket-type="values" attribute-id="size" system="false">
@@ -3078,8 +3096,11 @@
             <page-keywords xml:lang="zh-CN">男式外衣、男式上衣、男式下装</page-keywords>
         </page-attributes>
         <custom-attributes>
+            <custom-attribute attribute-id="backgroundColor">red</custom-attribute>
             <custom-attribute attribute-id="enableCompare">false</custom-attribute>
             <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="textAttribute">Clothing</custom-attribute>
+            <custom-attribute attribute-id="textColor">white</custom-attribute>
         </custom-attributes>
     </category>
 
@@ -3786,9 +3807,12 @@
             <page-keywords xml:lang="zh-CN">男士配饰、男士皮带、男士钱包、男式手套、男式帽子、太阳镜、手表、手套、帽子、围巾、箱包、旅行包、背包、书包、电脑包、登山背包、男士袜子、男袜</page-keywords>
         </page-attributes>
         <custom-attributes>
+            <custom-attribute attribute-id="backgroundColor">red</custom-attribute>
             <custom-attribute attribute-id="enableCompare">false</custom-attribute>
             <custom-attribute attribute-id="showInMenu">true</custom-attribute>
             <custom-attribute attribute-id="slotBannerImage">images/slot/landing/cat-landing-slotbottom-mens-accessories.jpg</custom-attribute>
+            <custom-attribute attribute-id="textAttribute">Accessories</custom-attribute>
+            <custom-attribute attribute-id="textColor">white</custom-attribute>
         </custom-attributes>
     </category>
 
@@ -3942,9 +3966,12 @@
             <page-keywords xml:lang="x-default">televisions, tvs, LCD, plasma, flat screen, high definition, HDTV, projection</page-keywords>
         </page-attributes>
         <custom-attributes>
+            <custom-attribute attribute-id="backgroundColor">red</custom-attribute>
             <custom-attribute attribute-id="enableCompare">true</custom-attribute>
             <custom-attribute attribute-id="showInMenu">true</custom-attribute>
             <custom-attribute attribute-id="slotBannerImage">images/slot/landing/cat-landing-tv.jpg</custom-attribute>
+            <custom-attribute attribute-id="textAttribute">TV</custom-attribute>
+            <custom-attribute attribute-id="textColor">white</custom-attribute>
         </custom-attributes>
         <refinement-definitions>
             <refinement-definition type="attribute" bucket-type="none" attribute-id="tvSize" system="false">
@@ -4030,9 +4057,12 @@
             <page-keywords xml:lang="x-default">cameras, digital camerasm point and shoot, slr</page-keywords>
         </page-attributes>
         <custom-attributes>
+            <custom-attribute attribute-id="backgroundColor">red</custom-attribute>
             <custom-attribute attribute-id="enableCompare">true</custom-attribute>
             <custom-attribute attribute-id="showInMenu">true</custom-attribute>
             <custom-attribute attribute-id="slotBannerImage">images/slot/landing/cat-landing-camera.jpg</custom-attribute>
+            <custom-attribute attribute-id="textAttribute">Digital Camera</custom-attribute>
+            <custom-attribute attribute-id="textColor">white</custom-attribute>
         </custom-attributes>
         <refinement-definitions>
             <refinement-definition type="attribute" bucket-type="none" attribute-id="digitalCameraType" system="false">
@@ -4178,9 +4208,12 @@
             <page-keywords xml:lang="x-default">mp3, iPods, mp3 players</page-keywords>
         </page-attributes>
         <custom-attributes>
+            <custom-attribute attribute-id="backgroundColor">red</custom-attribute>
             <custom-attribute attribute-id="enableCompare">true</custom-attribute>
             <custom-attribute attribute-id="showInMenu">true</custom-attribute>
             <custom-attribute attribute-id="slotBannerImage">images/slot/landing/cat-landing-mp3.jpg</custom-attribute>
+            <custom-attribute attribute-id="textAttribute">Music Player</custom-attribute>
+            <custom-attribute attribute-id="textColor">white</custom-attribute>
         </custom-attributes>
         <refinement-definitions>
             <refinement-definition type="attribute" bucket-type="none" attribute-id="portableAudioType" system="false">
@@ -4274,9 +4307,12 @@
             <page-keywords xml:lang="x-default">gps, gps units, garmin, tom tom</page-keywords>
         </page-attributes>
         <custom-attributes>
+            <custom-attribute attribute-id="backgroundColor">red</custom-attribute>
             <custom-attribute attribute-id="enableCompare">true</custom-attribute>
             <custom-attribute attribute-id="showInMenu">true</custom-attribute>
             <custom-attribute attribute-id="slotBannerImage">images/slot/landing/cat-landing-gps.jpg</custom-attribute>
+            <custom-attribute attribute-id="textAttribute">Navigation</custom-attribute>
+            <custom-attribute attribute-id="textColor">white</custom-attribute>
         </custom-attributes>
         <refinement-definitions>
             <refinement-definition type="attribute" bucket-type="none" attribute-id="gpsType" system="false">
@@ -4398,9 +4434,12 @@
             <page-keywords xml:lang="x-default">gaming, xbox, xbox360, ps3, ps2, playstaion 3, psp, game cube, wii, nintendo, nintendo ds</page-keywords>
         </page-attributes>
         <custom-attributes>
+            <custom-attribute attribute-id="backgroundColor">red</custom-attribute>
             <custom-attribute attribute-id="enableCompare">true</custom-attribute>
             <custom-attribute attribute-id="showInMenu">true</custom-attribute>
             <custom-attribute attribute-id="slotBannerImage">images/slot/landing/cat-landing-gaming.jpg</custom-attribute>
+            <custom-attribute attribute-id="textAttribute">Gaming</custom-attribute>
+            <custom-attribute attribute-id="textColor">white</custom-attribute>
         </custom-attributes>
     </category>
 
